@@ -1,0 +1,4 @@
+[Mon Aug 06 2018 12:24:49 GMT+0300 (Финляндия (лето))] layer "info@sitename.ru": Unsupported extension: ru
+[Mon Aug 06 2018 12:24:49 GMT+0300 (Финляндия (лето))] layer "+7 (495) 12-321-345": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Aug 06 2018 12:24:49 GMT+0300 (Финляндия (лето))] layer "mlntours.ru_bulgaria_16": Expected end of input but "_" found.
+[Mon Aug 06 2018 12:24:49 GMT+0300 (Финляндия (лето))] layer "+7 (495) 12-321-345 +7 (495) 12-321-345": Expected Either a default asset specification or a layer asset specification but "+" found.
