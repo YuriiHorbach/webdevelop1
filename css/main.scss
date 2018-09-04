@@ -1,29 +1,11 @@
-/*1. Embed
+body{
+	font-family: 'Varela Round', Lato, sans-serif;
+	color: #2c3f55;
+	overflow-x: hidden;/*побороли горизонтальний скрол коли випирала машина*/
+		
+}
 
-To embed these fonts into a webpage, copy this code into the <head> of your HTML document.
-STANDARD @IMPORT
-<link href="https://fonts.googleapis.com/css?family=Varela+Round&amp;subset=latin-ext" rel="stylesheet">
-2. Specify in CSS
-
-Use the following CSS properties to specify these families:
-
-    font-family: 'Varela Round', sans-serif;
-
-1. Embed
-
-To embed these fonts into a webpage, copy this code into the <head> of your HTML document.
-STANDARD @IMPORT
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-2. Specify in CSS
-
-Use the following CSS properties to specify these families:
-
-    font-family: 'Lato', sans-serif;
-
-For examples of how fonts can be added to webpages, see the getting started guide. 
-*/
-
-
-font-family: 'Varela Round', sans-serif;
-font-family: 'Lato', sans-serif;
+.header__gamburger{
+	font-family: Lato, sans-serif;
+}
 
