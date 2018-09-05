@@ -37,7 +37,35 @@ html{
 }
 
 .header__gamburger{
-	font-size: 1.000rem;	
+	font-size: 1.000rem;
+	margin-top: 19px;	
+}
+
+.header__listStart{
+	margin-bottom: 0;
+}
+
+
+.header__center-word{
+	display: block;
+	margin-top: 25px;
+}
+
+.header__get-app{
+	width: 132px;
+	background: url(../img/AppleIcon.png) #267df4 no-repeat 10% center;
+	
+	border-radius: 25px;
+	color: #fff;
+	padding: 10px 0px;
+}
+
+.header__get-appWord{
+	margin: 0 0 0 10px;
+}
+
+.header__endMenu{
+	margin-top: 10px;
 }
 
 
