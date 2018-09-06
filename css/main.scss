@@ -45,6 +45,11 @@ h1,h2,h3{
 	margin-top: 19px;	
 }
 
+.header__list-item:hover{
+	color: #9f9fa1;
+	cursor:pointer;
+}
+
 .header__listStart{
 	margin-bottom: 0;
 }
@@ -72,6 +77,10 @@ h1,h2,h3{
 	margin-top: 10px;
 }
 
+.firstScreen{
+	background: url(../img/Background1.png);
+}
+
 .firstScreen__bigHeader{
 	
 	margin-top: 125px;	
@@ -88,6 +97,30 @@ h1,h2,h3{
 	margin-top: 40px;
 	color: #8c8f94;
 }
+
+.firstScreen__watch{
+		margin-top: 60px;
+	    font-size: 1.25rem;
+		border: 1px solid #dadcde;
+		border-radius: 35px;
+		padding: 17px 0 17px 23px;
+		width: 240px;
+		background: url(../img/PlayIcon.png) no-repeat 15% center;
+		color: #000;
+}
+
+.firstScreen__watch:hover{
+		border: 1px solid #000;
+		border-radius: 35px;
+		background: #000 url(../img/PlayIconNeg.png) no-repeat 15% center;
+		color: #fff;
+		cursor: pointer;
+}
+
+.firstScreen__a:hover{
+	text-decoration: none;
+}
+
 
 
 
