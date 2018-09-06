@@ -1,11 +1,15 @@
 
 html, body{
-    font-family: 'Varela Round', sans-serif;
+    
     font-family: 'Lato', sans-serif;
 }
 
 html{
 	font-size: 16px;
+}
+
+h1,h2,h3{
+	font-family: 'Varela Round', sans-serif;
 }
 
 .container{
@@ -67,6 +71,24 @@ html{
 .header__endMenu{
 	margin-top: 10px;
 }
+
+.firstScreen__bigHeader{
+	
+	margin-top: 125px;	
+}
+ h1{
+ 	font-size: 3.875rem;	
+ }
+
+ .firstScreen__text{
+ 	font-size: 1.250rem;
+ }	
+
+.firstScreen__text{
+	margin-top: 40px;
+	color: #8c8f94;
+}
+
 
 
 
