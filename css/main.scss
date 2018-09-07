@@ -77,9 +77,6 @@ h1,h2,h3{
 	margin-top: 10px;
 }
 
-.firstScreen{
-	background: url(../img/Background1.png);
-}
 
 .firstScreen__bigHeader{
 	
@@ -121,6 +118,21 @@ h1,h2,h3{
 	text-decoration: none;
 }
 
+.bgHeader-Section{
+	background: url(../img/photobg.png) no-repeat center top/cover;
+	width: 100%;
+    
+	height: 100vh;
+}
+
+/*advScreen*/
+
+#advantages{
+	margin-top: 100px;
+}
+.adv__Img{
+	background: url(../img/LockIcon.png)no-repeat left;
+}
 
 
 
