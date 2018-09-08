@@ -118,22 +118,119 @@ h1,h2,h3{
 	text-decoration: none;
 }
 
+.firstScreen__phone{
+	margin-top: 60px;
+}
+
 .bgHeader-Section{
 	background: url(../img/photobg.png) no-repeat center top/cover;
 	width: 100%;
-    
-	height: 100vh;
+	height: 100%;
 }
 
 /*advScreen*/
 
 #advantages{
-	margin-top: 100px;
+	
 }
-.adv__Img{
+
+.adv__blockLeft{
+	padding-right: 35px;
+}
+
+.adv__blockRight{
+	padding-left: 35px;
+}
+.adv__ImgLeft{
+	margin-top: 120px;
 	background: url(../img/LockIcon.png)no-repeat left;
+	width: 42px;
+	height: 51px;
+}
+
+.adv__ImgRight{
+	margin-top: 120px;
+	background: url(../img/ClockIcon.png)no-repeat left;
+	width: 42px;
+	height: 51px;
+}
+
+.adv__header{
+	margin-top: 35px;
+	font-size: 1.625rem;
+}
+
+.adv__text{
+	margin-top: 35px;
+	font-size: 1.125rem;
+	color: #8c8f94;
+}
+
+/*protected*/
+
+.protected__big-phone{
+	position: absolute;
+	left: -315px;
+	top: 250px;
+}
+
+.protected__block{
+	margin-top: 250px;
+}
+
+.block__header{
+	margin-top: 395px;
+	font-size: 2.625rem;
+}
+
+.block__text{
+	margin-top: 70px;
+	font-size: 1.250rem;
+	color: #8c8f94;
 }
 
 
+.block__buttonHack{
+	margin-top: 75px;
+	color: #fff;
+	width: 200px;
+	background: url(../img/ArrowIcon.png) #267df4 no-repeat 85% 50%;
+	border-radius: 25px;
+	padding: 10px 25px;
+	font-size: 1rem;
+}
 
+.block__buttonLearn{
+	margin-top: 75px;
+	color: #000;
+	font-size: 1rem;
+	border: 1px solid #dadcde;
+	border-radius: 35px;
+	padding: 10px 0 10px 25px;
+	width: 140px;
+	
+	margin-left: 8px;
+}
+
+
+.block__buttonLearn:hover{
+		border: 1px solid #000;
+		border-radius: 35px;
+		cursor: pointer;
+		background: 	#000;
+		color: #fff;
+		text-decoration: none;
+}
+
+.block__buttonHack_a{
+	color: #fff;
+}
+
+.block__buttonLearn_a{
+	color: #000;
+}
+
+.block__buttonHack_a:hover{
+	text-decoration: none;
+}
 
