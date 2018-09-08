@@ -170,8 +170,7 @@ h1,h2,h3{
 
 .protected__big-phone{
 	position: absolute;
-	left: -315px;
-	top: 250px;
+	top: 180%;
 }
 
 .protected__block{
@@ -200,6 +199,16 @@ h1,h2,h3{
 	font-size: 1rem;
 }
 
+.block__buttonHack_a{
+	color: #fff;
+}
+
+.block__buttonHack_a:hover{
+	text-decoration: none;
+	color: #fff
+}
+
+
 .block__buttonLearn{
 	margin-top: 75px;
 	color: #000;
@@ -214,23 +223,54 @@ h1,h2,h3{
 
 
 .block__buttonLearn:hover{
-		border: 1px solid #000;
-		border-radius: 35px;
-		cursor: pointer;
-		background: 	#000;
-		color: #fff;
-		text-decoration: none;
+	border: 1px solid #000;
+	border-radius: 35px;
+	cursor: pointer;
+	background: 	#000;
+	color: #fff;
+	text-decoration: none;
 }
 
-.block__buttonHack_a{
-	color: #fff;
-}
 
 .block__buttonLearn_a{
 	color: #000;
 }
 
-.block__buttonHack_a:hover{
+.block__buttonLearn_a:hover{
 	text-decoration: none;
+	color: #fff;
 }
 
+/*map*/
+
+.map__block{
+	margin-top: 450px;
+}
+
+.map__header{
+	font-size: 2.625rem;
+}
+
+.map__text{
+	margin-top: 65px;
+	font-size: 1.250rem;
+	color: #8c8f94;
+}
+
+.map__partners{
+	margin-top: 70px;
+	font-size: 0.750em;
+}
+
+.map__logos{
+	margin-top: 30px;
+}
+
+.logo__dropbox{
+	width: 125px;
+}
+
+.logo__evernote{
+	width: 138px;
+	margin-left: 30px;
+}
