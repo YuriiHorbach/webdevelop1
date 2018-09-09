@@ -307,3 +307,63 @@ h2{
 	color: #8c8f94;
 	margin: 0;
 }
+
+.middle-screen{
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+
+.screen-top{
+	margin-top: 108px;
+}
+
+.screen1{
+	position: absolute;
+	left: -34%;
+	top: 35.5%;
+	right: 50%;
+}
+
+.screen2{
+	position: absolute;
+	left: 73%;
+	top: 35.5%;
+	right: 50%;
+}
+
+.screen3{
+	position: absolute;
+	right: 50%;
+	top: 35.5%;
+	left: -7%;
+}
+
+.screen4{
+	position: absolute;
+	right: 50%;
+	top: 35.5%;
+	left: 109%;
+}
+
+.alt-screens{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.alt-screens__list{
+	margin: 0;
+	padding: 0;
+}
+
+.alt-screens__listItem{
+	display:block;
+	float:left;
+
+
+}
+
+
+
+/**/
+
