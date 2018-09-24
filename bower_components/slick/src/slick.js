@@ -1,9 +1,3 @@
-/*!
-* slick.js
-* v1.0.1 - 2013-12-20
-* https://github.com/shashankmehta/slick.js
-* (c) Shashank Mehta; MIT License
-*/
 /*global jQuery */
 (function ($, root) {
     'use strict';
@@ -19,6 +13,7 @@
             end: undefined,
             keyControl: true,
             content: undefined,
+            slide_arg: undefined,
             theme: {
                 container: container,
                 content: '.slick-content',
@@ -91,10 +86,11 @@
         setSlide: function(step){
             var slick = this;
             var slideStatus = slick.hooks.slideStatus.apply(slick, [step]);
+            var slickContainer = $(slick.options.theme.container);
             slick.state.slide.current = step - slick.state.slide.difference;
 
-            if(slick.state.slide.current === 1){
-                $(slick.options.theme.container).animate({'opacity': '1'}, 500);
+            if (parseInt(slickContainer.css("opacity"), 10) === 0) {
+                slickContainer.animate({'opacity': '1'}, 500);
             }
 
             if($(slick.options.theme.container + ' .skip' + slick.options.theme.currentNo).is(':input')){
@@ -170,6 +166,9 @@
 
         // Returns the path with the current no inserted
         imagePath: function(step){
+            if (typeof(this.options.source) == 'object' && this.options.source !== null) {
+                return this.options.source[step];
+            }
             var parts = this.options.source.split('*');
             return parts[0] + step + parts[1];
         },
@@ -178,7 +177,7 @@
             if($.isNumeric(val)){
                 var slick = this;
 
-                var step = parseInt(val) + slick.state.slide.difference;
+                var step = parseInt(val, 10) + slick.state.slide.difference;
                 slick.hooks.getSlide.apply(slick, [step]);
                 slick.hooks.setSlide.apply(slick, [step]);
             }
@@ -191,9 +190,27 @@
 
         $(slick.options.theme.container).css('opacity', '0');
 
+        var getParameterByName = function (name) {
+            if(typeof name === "undefined"){
+              return 0;
+            }
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        };
+
         // Sets the first slide
-        if(typeof slick.options.source === 'string'){
-            slick.hooks.next.apply(slick);
+        var slide_id = Math.max(parseInt(slick.options.start, 10), parseInt(getParameterByName(slick.options.slide_arg), 10));
+        if (isNaN(slide_id) || slide_id === 0) {
+            if (typeof slick.options.source === 'string') {
+                slick.hooks.next.apply(slick);
+            } else if (typeof(slick.options.source) == 'object' && slick.options.source !== null) {
+                slick.hooks.setSlide.apply(slick, [0]);
+            }
+        } else {
+            slide_id = Math.min(parseInt(slick.options.end, 10), slide_id);
+            slick.hooks.setSlide.apply(slick, [slide_id]);
         }
 
         // Attaches event listeners for next/prev buttons
