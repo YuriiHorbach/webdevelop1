@@ -516,16 +516,18 @@ h2{
 	color: #fff;
 }
 
-
+.wrapper{
+	margin-top: 20px;
+}
 
 
 .tabs{
-	width: 296px;
+	width: 284px;
 	cursor: pointer;
 	border: 1px solid #d3d4d5;
 	border-radius: 50px;
-	margin: 10px;
 	padding: 16px 0px;
+	font-size: 1rem;
 }
 
 .tab{
@@ -543,10 +545,36 @@ h2{
 	color: #000;
 }
 
-.tab-item{
-	
+.tab_content{
+	margin-top: 75px;
+	font-size: 1.250rem;
 }
 
+.tab_item{
+	margin-top: 75px;
+	color:#8c8f94;
+}
+
+
+.choose__textAfterTabs{
+	margin-top: 45px;
+	font-size: 0.875rem;		
+	color:#8c8f94;
+}
+
+.grow  {
+ -moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+
+ 	background: #ebebed;
+ }
+
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 
 
