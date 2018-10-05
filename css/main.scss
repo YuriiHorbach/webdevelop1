@@ -562,22 +562,69 @@ h2{
 	color:#8c8f94;
 }
 
+.choose__twoBlocks_wrapper{
+	background: #ebebed;
+	height: 510px;
+	border-radius: 5px;
+}	
+
+
+
+.choose__twoBlocks_Right:hover, .choose__twoBlocks_Left:hover{
+	background: #ffffff;
+	border: 1px solid #fff;
+	box-shadow: 10px 7px 25px rgba(0,0,0,0.28);
+	border-radius: 5px;
+	height: 510px;
+}
+
+
 .grow  {
  -moz-transition: all 0.5s ease-out;
  -o-transition: all 0.5s ease-out;
  -webkit-transition: all 0.5s ease-out;
-
- 	background: #ebebed;
  }
 
 .grow:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 999;
 }
 
+.twoBlocks__header{
+	margin-top: 60px;	
+	font-size: 2.000rem;
+	color: #000;
+}
 
+.twoBlocks__buttonPrice {
+   	margin-top: 30px;
+    color: #000;
+    font-size: 1rem;
+    border: 1px solid #d4d4d5;
+    border-radius: 35px;
+    padding: 8px 15px; 
+    width: 84px;
+    /* margin-left: 8px;
+     */
+}
 
+.twoBlocks__task{
+	margin-top: 55px;
+	color: #8c8f94;
+	font-size: 1.250rem;
+}
+
+.twoBlocks__list{
+	margin-top: 45px;
+}
+
+.twoBlocks__listItem{
+	font-size: 1rem;
+	margin-top: 27px;
+	list-style: url(/img/listElement.png);
+}
 
 
 	
