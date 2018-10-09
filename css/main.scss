@@ -377,7 +377,7 @@ h2{
 }	
 
 
-/*getIt*/
+/*getIt - subscribe*/
 
 .getit__logo{
 	margin-top: 85px;
@@ -399,7 +399,17 @@ h2{
 	border-radius: 35px;
 	padding: 10px 0 10px 25px;
 	margin-left: 8px;
+}
 
+.getit__email_subscribe{
+	width: 505px;
+	margin-top: 47px;
+	color: #67696b;
+	font-size: 1rem;
+	border: 1px solid #dadcde;
+	border-radius: 35px;
+	padding: 10px 0 10px 25px;
+	margin-left: 8px;
 }
 
 .getit__send{
@@ -410,7 +420,25 @@ h2{
 	border-radius: 25px;
 	padding: 10px 45px 10px 20px;
 	font-size: 1rem;
-	margin-left: 26%;
+	margin-left: 32%;
+}
+
+.getit__send_subscribe{
+	margin-left: 50%;
+	margin-top: 75px;
+	color: #fff;
+	background: #6fc754 no-repeat 85% 50%;
+	width: 160px;
+	border-radius: 25px;
+	padding: 10px 45px 10px 20px;
+	font-size: 1rem;
+
+}
+
+
+
+.getit__send_subscribeText{
+	margin-left: 25px;
 }
 
 .getit__email a:hover{
@@ -422,6 +450,14 @@ h2{
 	font-size: 0.750rem; 
 	color: #8c8f94;
 }
+
+.getit__download_subscribe{
+	margin-top: 30px;
+	font-size: 0.875rem;
+	color: #8c8f94;
+}
+
+
 
 
 .getit__appStore{
@@ -667,8 +703,57 @@ h2{
 
 .twoBlocks__link:hover{
 	text-decoration: none;
-	
-}
+	}
+
+	/*subscribe*/
+
+	.subscribe__header{
+		margin-top: 335px;
+	}
+
+	.subscribe__send{
+		margin-left: 700px;
+	}
 
 	
+
+/* margin-left: 255px; */
+
+/*footer*/
+
+.footer__header{
+	margin-top: 215px;
+}
+
+.footer__text{
+	margin-top: 35px;
+	font-size: 0.875rem;
+	color: #adafb2;
+}
+
+.footer__appDownload{
+  margin-top: 30px;
+}
+
+.footer__Socials{
+	margin-top: 40px;
+}
+
+.footer__list{
+	margin-top: 215px;
+	font-size: 0.750rem;
+	font-weight: 700;
+}
+
+.footerList__item_maim{
+	list-style: none;
+}
+
+.footerList__item{ 
+	margin-top: 25px;
+	list-style: none;
+	color: #adafb2;
+}
+
+
 
