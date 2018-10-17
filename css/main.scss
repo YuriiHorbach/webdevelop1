@@ -424,21 +424,28 @@ h2{
 }
 
 .getit__send_subscribe{
-	margin-left: 50%;
-	margin-top: 75px;
-	color: #fff;
-	background: #6fc754 no-repeat 85% 50%;
-	width: 160px;
-	border-radius: 25px;
-	padding: 10px 45px 10px 20px;
-	font-size: 1rem;
-
+/* 	margin-left: 50%;
+margin-top: 75px;
+color: #fff;
+background: #6fc754 no-repeat 85% 50%;
+width: 160px;
+border-radius: 25px;
+padding: 10px 45px 10px 20px;
+font-size: 1rem; */
+margin-left: 56%;
+margin-top: 75px;
+color: #fff;
+background: #6fc754 no-repeat 85% 50%;
+width: 117px;
+border-radius: 25px;
+padding: 10px 30px 10px 29px;
+font-size: 1rem;
 }
 
 
 
 .getit__send_subscribeText{
-	margin-left: 25px;
+	/* margin-left: 25px; */
 }
 
 .getit__email a:hover{
@@ -764,9 +771,11 @@ h2{
 .footer__bottomLogo{
 	font-size: 0.563rem;
 	margin: 174px 0 35px 0;
+	padding: 0 0 0 210px;
 }
 
 .footer__LogoFooter{
 	display: inline-block;
+	margin: -7px 0 0 15px;
 }
 
